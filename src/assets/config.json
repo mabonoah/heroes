@@ -1,113 +1,113 @@
 [
     {
         "name": "Kathryn Murphy",
-        "phone": "(252) 555-0126",
+        "phone": "2525550126",
         "email": "tanya.hill@example.com",
-        "date": "March 6, 2018",
+        "date": "2018-06-03",
         "country": "Saudi Arabia",
         "company": "L'Oréal"
     },
     {
         "name": "Wade Warren",
-        "phone": "(671) 555-0110",
+        "phone": "6715550110",
         "email": "lores.chambers@example.com",
-        "date": "September 24, 2017",
+        "date": "2017-24-09",
         "country": "Serbia",
         "company": "eBay"
     },
     {
         "name": "Devon Lane",
-        "phone": "(209) 555-0104",
+        "phone": "2095550104",
         "email": "sara.cruz@example.com",
-        "date": "February 9, 2015",
+        "date": "2015-09-02",
         "country": "Russian Federation",
         "company": "Gillette"
     },
     {
         "name": "Albert Flores",
-        "phone": "(808) 555-0111",
+        "phone": "8085550111",
         "email": "leanna.curtis@example.com",
-        "date": "November 16, 2014",
+        "date": "2014-16-11",
         "country": "Poland",
         "company": "Louis Vuitton"
     },
     {
         "name": "Jerome Bell",
-        "phone": "(505) 555-0125",
+        "phone": "5055550125",
         "email": "ichelle.rivera@example.com",
-        "date": "October 31, 2017",
+        "date": "2017-31-10",
         "country": "Poland",
         "company": "Facebook"
     },
     {
         "name": "Eleanor Pena",
-        "phone": "(303) 555-0105",
+        "phone": "3035550105",
         "email": "kenzi.lawson@example.com",
-        "date": "November 28, 2015",
+        "date": "2015-28-11",
         "country": "Saint Barthélemy",
         "company": "McDonald's"
     },
     {
         "name": "Annette Black",
-        "phone": "(702) 555-0122",
+        "phone": "7025550122",
         "email": "essica.hanson@example.com",
-        "date": "March 13, 2014",
+        "date": "2014-13-03",
         "country": "Réunion",
         "company": "Starbucks"
     },
     {
         "name": "Darrell Steward",
-        "phone": "(207) 555-0119",
+        "phone": "2075550119",
         "email": "bra.holt@example.com",
-        "date": "May 31, 2015",
+        "date": "2015-31-05",
         "country": "Poland",
         "company": "Mitsubishi"
     },
     {
         "name": "Kristin Watson",
-        "phone": "(307) 555-0133",
+        "phone": "3075550133",
         "email": "elicia.reid@example.com",
-        "date": "December 2, 2018",
+        "date": "2018-02-12",
         "country": "Pakistan",
         "company": "MasterCard"
     },
     {
         "name": "Jane Cooper",
-        "phone": "(208) 555-0112",
+        "phone": "2085550112",
         "email": "georgia.young@example.com",
-        "date": "February 28, 2018",
+        "date": "2018-28-2",
         "country": "Monaco",
         "company": "Gillette"
     },
     {
         "name": "Theresa Webb",
-        "phone": "(684) 555-0102",
+        "phone": "6845550102",
         "email": "nathan.roberts@example.com",
-        "date": "May 9, 2014",
+        "date": "2014-09-05",
         "country": "South Africa",
         "company": "General Electric"
     },
     {
         "name": "Arlene McCoy",
-        "phone": "(405) 555-0128",
+        "phone": "4055550128",
         "email": "ckson.graham@example.com",
-        "date": "September 9, 2013",
+        "date": "2013-09-09",
         "country": "Haiti",
         "company": "Nintendo"
     },
     {
         "name": "Darlene Robertson",
-        "phone": "(316) 555-0116",
+        "phone": "3165550116",
         "email": "Ima.lawson@example.com",
-        "date": "November 7, 2017",
+        "date": "2017-07-11",
         "country": "Iceland",
         "company": "eBay"
     },
     {
         "name": "Floyd Miles",
-        "phone": "(704) 555-0127",
+        "phone": "7045550127",
         "email": "l.sanders@example.com",
-        "date": "May 20, 2015",
+        "date": "2015-20-05",
         "country": "Greece",
         "company": "Louis Vuitton"
     }
