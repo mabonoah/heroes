@@ -1,1 +1,56 @@
-<p>heroes-filter works!</p>
+<header>
+    <h6 class="title">{{ 'filters' | uppercase }}</h6>
+</header>
+
+<!-- Filters Form -->
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+    <!-- Email -->
+    <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input type="text" formControlName="email" matInput>
+    </mat-form-field>
+
+    <!-- Phone -->
+    <mat-form-field>
+        <mat-label>Phone</mat-label>
+        <input type="text" formControlName="phone" matInput prefix="+1" mask=" (000) 000-0000" />
+    </mat-form-field>
+
+
+    <!-- Name -->
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input type="text" formControlName="name" matInput>
+    </mat-form-field>
+
+    <!-- Company -->
+    <mat-form-field>
+        <mat-label>Company</mat-label>
+        <input type="text" formControlName="company" matInput>
+    </mat-form-field>
+
+    <!-- Country -->
+    <mat-form-field>
+        <mat-label>Country</mat-label>
+        <mat-select formControlName="country">
+            <mat-option>None</mat-option>
+            <mat-option *ngFor="let country of countries" [value]="country">
+                {{country}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <!-- Date -->
+    <mat-form-field>
+        <mat-label>Date</mat-label>
+        <input type="date" formControlName="date" matInput>
+    </mat-form-field>
+
+    <!-- Submit -->
+    <button type="submit" [disabled]="form.invalid || form.pristine" mat-raised-button color="primary">
+        <mat-icon>filter_list</mat-icon>
+        Filter
+    </button>
+
+</form>

@@ -8,6 +8,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
+import { MatSelectModule } from '@angular/material/select';
+import { MatNativeDateModule } from '@angular/material/core';
 
 const modules: any[] = [
     MatFormFieldModule,
@@ -18,7 +20,9 @@ const modules: any[] = [
     MatTooltipModule,
     MatProgressSpinnerModule,
     MatTableModule,
-    MatSortModule
+    MatSelectModule,
+    MatSortModule,
+    MatNativeDateModule,
 ];
 
 @NgModule({
