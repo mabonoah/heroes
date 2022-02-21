@@ -1,2 +1,4 @@
-<heroes-filter></heroes-filter>
-<hero-list></hero-list>
+<div id="heroes-wrapper" [style.grid-template-columns]="heroesService.dynamicFilter ? '1fr 3fr' : '1fr'">
+    <heroes-filter @flyIn *ngIf="heroesService.dynamicFilter"></heroes-filter>
+    <hero-list></hero-list>
+    <div>

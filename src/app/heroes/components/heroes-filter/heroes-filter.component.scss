@@ -1,8 +1,10 @@
 @import "../../../../assets/style/variables";
+@import "../../../../assets/style/global-mixins";
 
 :host {
     display: flex;
     height: 100%;
     margin-right: 1.5rem;
     background: $content-bg-color;
+    @include box-shadow(0 0.3rem 0.5rem rgb(0 0 0 / 0.2));
 }
