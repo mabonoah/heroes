@@ -25,7 +25,6 @@ body {
 
 * {
     font-family: "Poppins", sans-serif;
-    @include noselect();
 }
 
 // Small devices (landscape phones, less than 768px)
