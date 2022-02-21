@@ -1,0 +1,8 @@
+@import "../../../../assets/style/variables";
+
+:host {
+    display: flex;
+    height: 100%;
+    margin-right: 1.5rem;
+    background: $content-bg-color;
+}

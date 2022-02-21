@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeroesComponent } from './components/heroes/heroes.component';
-import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { HeroesComponent } from './heroes/components';
+import { PageNotFoundComponent } from './shared/components';
 
 const routes: Routes = [
   { path: '', redirectTo: '/heroes', pathMatch: 'full' },

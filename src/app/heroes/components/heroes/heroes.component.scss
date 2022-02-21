@@ -1,0 +1,9 @@
+@import "../../../../assets/style/variables";
+
+:host {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100%;
+    width: 100%;
+    padding: 3rem;
+}

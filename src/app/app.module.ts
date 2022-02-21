@@ -1,35 +1,36 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 
+/** Components */
 import { AppComponent } from './app.component';
-import {
-  HeroesComponent,
-  HeroListComponent,
-  HeroesFilterComponent,
-  PageNotFoundComponent
-} from './components';
-import { MaterialAngularModule } from './shared/modules/material-angular.module';
+import { HeroesComponent, HeroesFilterComponent, HeroListComponent } from './heroes/components';
+
+/** Services */
+import { HttpInterceptorService } from './api/http-interceptor.service';
+import { SharedModule } from './shared/modules/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroListComponent,
     HeroesFilterComponent,
-    HeroesComponent,
-    PageNotFoundComponent
+    HeroesComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    FormsModule,
-    ReactiveFormsModule,
     AppRoutingModule,
-    MaterialAngularModule
+    HttpClientModule,
+    SharedModule
   ],
-  providers: [],
+  providers: [{
+    provide: HTTP_INTERCEPTORS,
+    useClass: HttpInterceptorService,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
